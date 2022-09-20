@@ -18,6 +18,10 @@ header {
 	margin: 10px;
 }
 
+nav:hover {
+	background-image: linear-gradient(#FFFFCC, blueviolet, blue);
+}
+
 body {
 	background-color: #CC66FF;
 }
@@ -35,6 +39,14 @@ nav a {
 	text-decoration: none;
 	color: white;
 }
+
+nav a:hover {
+	font-size: 50px;
+	color: navy;
+	transition: 2s ease-in;
+} 
+
+
 
 .bars {
 	margin-left: 25%;
@@ -66,4 +78,25 @@ article {
 
 article img {
 	width: 25%;
+}
+
+.video {
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+}
+
+footer img {
+	width: 100px;
+	margin: 20px;
+}
+
+.sos {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+footer {
+	background-color: #33CC00;
 }
